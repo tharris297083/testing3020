@@ -1,40 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-	  <meta charset="UTF-8">
-	  <meta name="viewport" contents="width=device-width, initial-scale=1.0">
-    <title>Game Show to Go</title>
-    <link rel="stylesheet" href="template_styles.css">
-  </head>
+<head>
+<meta charset="UTF-8">
+<title>Sliding Box</title>
+<style>
+  .box {
+    width: 100px;
+    height: 100px;
+    background: royalblue;
+    position: relative;
+    animation: slide 3s linear infinite;
+  }
 
-  <body>
+  @keyframes slide {
+    0%   { left: 0; }
+    50%  { left: 80%; }
+    100% { left: 0; }
+  }
+</style>
+</head>
+<body>
 
-  <!-- Banner (GAME SHOW style) -->
-  <header class="banner">
-    <div class="grid-container">
-		<div class="box box1">A</div>
-		<div class="box box2">B</div>
-		<div class="box box3">C</div>
-		<div class="box box4">D</div>
-	</div>
-    <div class="show">SHOW</div>
-  </header>
-<div class="slider"></div>
-
-  <!-- Navigation (NETWORK style) -->
-  <nav class="network-nav">
-    <ul>
-      <li><a href="template_index.html">Home</a></li>
-      <li><a href="information.html">Learn More</a></li>
-      <li><a href="game.html">Play a Game</a></li>
-      <li><a href="Log In">Log In</a></li>
-    </ul>
-  </nav>
-
-
-
-    Something something something dark side.
-
+<div class="box"></div>
 
 </body>
 </html>
