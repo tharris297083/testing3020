@@ -19,10 +19,10 @@ body{
 }
 
 .box nth-child(1) {top 60px; left 100px; animation duration: 1.5s; }
-.box nth-child(2) {top 60px; left 100px; animation duration: 1.5s; }
-.box nth-child(3) {top 60px; left 100px; animation duration: 1.5s; }
-.box nth-child(4) {top 60px; left 100px; animation duration: 1.5s; }
-.box nth-child(5) {top 60px; left 100px; animation duration: 1.5s; }
+.box nth-child(2) {top 120px; left 300px; animation duration: 2.5s; }
+.box nth-child(3) {top 80px; left 600px; animation duration: 1.5s; }
+.box nth-child(4) {top 200px; left 500px; animation duration: 1.5s; }
+.box nth-child(5) {top 40px; left 800px; animation duration: 1.5s; }
 
 @keyframes animation1 {
   from { opacity .3; }
